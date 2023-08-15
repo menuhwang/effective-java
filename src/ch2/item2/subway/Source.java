@@ -1,0 +1,18 @@
+package ch2.item2.subway;
+
+public enum Source {
+    RANCH,
+    SWEET_ONION,
+    MAYONNAISE,
+    SWEET_CHILLI,
+    SMOKE_BBQ,
+    HOT_CHILLI,
+    HONEY_MUSTARD,
+    SOUTHWEST_CHIPOTLE,
+    HORSERADISH,
+    YELLOW_MUSTARD,
+    OLIVE_OIL,
+    RED_WINE_VINAIGRETTE,
+    SALT,
+    BLACK_PEPPER,
+}
