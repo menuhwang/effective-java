@@ -1,9 +1,9 @@
 package ch2.item1.policy;
 
-public class PolicyProvider {
+public class PolicyManager {
     private static Policy policy = new DefaultPolicy();
-    public static Policy getInstance() {
-        return policy;
+    public static Service getService() {
+        return new Service(policy);
     }
 
     public static void registerPolicy(Policy p) {
